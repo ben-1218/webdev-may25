@@ -1,0 +1,90 @@
+header{
+    /* background-color: lightgray; */
+    background-image: url('banner.jpg');
+    background-size: cover;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+header h1{
+    color: white;
+    font-size: 2.5em;
+    margin: 0;
+}
+
+header p{
+    color: white;
+    font-size: 1.2em;
+    margin: 0;
+}
+
+body{
+    margin: 0;
+}
+
+.cta-btn{
+    background-color: lightblue;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.about-container{
+    background-color: wheat;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+
+.services-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#services h2{
+    text-align: center;
+}
+.service-item{
+    background-color: #eee;
+    text-align: center;
+}
+
+footer{
+    background-color: darkgray;
+    text-align: center;
+    color: white;
+    padding: 10px 20px;
+}
+
+nav{
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+.navbar{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+.navbar li{
+    margin: 10px;
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+}
+
+.navbar a:hover{
+    color: blue;
+}
+
+.logo{
+    font-size: 2em;
+    font-weight: bold;
+    color: black;
+}
